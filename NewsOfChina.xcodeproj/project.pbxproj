@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40CE0D95E9116D290505DBC /* Pods_NewsOfChina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B784FC240334687517C3383B /* Pods_NewsOfChina.framework */; };
 		EB15BACB20DE62200048F908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BACA20DE62200048F908 /* AppDelegate.swift */; };
-		EB15BACD20DE62200048F908 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BACC20DE62200048F908 /* ViewController.swift */; };
-		EB15BAD020DE62200048F908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB15BACE20DE62200048F908 /* Main.storyboard */; };
 		EB15BAD220DE62220048F908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB15BAD120DE62220048F908 /* Assets.xcassets */; };
 		EB15BAD520DE62220048F908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB15BAD320DE62220048F908 /* LaunchScreen.storyboard */; };
 		EB15BAE020DE62220048F908 /* NewsOfChinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BADF20DE62220048F908 /* NewsOfChinaTests.swift */; };
 		EB15BAEB20DE62220048F908 /* NewsOfChinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BAEA20DE62220048F908 /* NewsOfChinaUITests.swift */; };
+		EB15BB0B20DE8C220048F908 /* PTLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB0A20DE8C220048F908 /* PTLRootViewController.swift */; };
+		EB15BB0E20DE8D050048F908 /* PTLHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB0C20DE8D050048F908 /* PTLHomePageController.swift */; };
+		EB15BB0F20DE8D050048F908 /* PTLHomePageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB15BB0D20DE8D050048F908 /* PTLHomePageController.xib */; };
+		EB15BB1220DE8D2F0048F908 /* PTLMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB1020DE8D2F0048F908 /* PTLMeViewController.swift */; };
+		EB15BB1320DE8D2F0048F908 /* PTLMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB15BB1120DE8D2F0048F908 /* PTLMeViewController.xib */; };
+		EB15BB1520DE8D6B0048F908 /* PTLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB1420DE8D6B0048F908 /* PTLNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1220A1ADED3B786F42BCEB78 /* Pods-NewsOfChina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOfChina.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina.release.xcconfig"; sourceTree = "<group>"; };
+		B784FC240334687517C3383B /* Pods_NewsOfChina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsOfChina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB15BAC720DE62200048F908 /* NewsOfChina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsOfChina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB15BACA20DE62200048F908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB15BACC20DE62200048F908 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EB15BACF20DE62200048F908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB15BAD120DE62220048F908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB15BAD420DE62220048F908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB15BAD620DE62220048F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		EB15BAE620DE62220048F908 /* NewsOfChinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsOfChinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB15BAEA20DE62220048F908 /* NewsOfChinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsOfChinaUITests.swift; sourceTree = "<group>"; };
 		EB15BAEC20DE62220048F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB15BB0A20DE8C220048F908 /* PTLRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLRootViewController.swift; sourceTree = "<group>"; };
+		EB15BB0C20DE8D050048F908 /* PTLHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageController.swift; sourceTree = "<group>"; };
+		EB15BB0D20DE8D050048F908 /* PTLHomePageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLHomePageController.xib; sourceTree = "<group>"; };
+		EB15BB1020DE8D2F0048F908 /* PTLMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLMeViewController.swift; sourceTree = "<group>"; };
+		EB15BB1120DE8D2F0048F908 /* PTLMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLMeViewController.xib; sourceTree = "<group>"; };
+		EB15BB1420DE8D6B0048F908 /* PTLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTLNavigationController.swift; sourceTree = "<group>"; };
+		FCE418DD49D13D29E6A4DBFB /* Pods-NewsOfChina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOfChina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A40CE0D95E9116D290505DBC /* Pods_NewsOfChina.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		319F22E1F5EC1122E51F22BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B784FC240334687517C3383B /* Pods_NewsOfChina.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57943319A3C4482A2BAE73BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCE418DD49D13D29E6A4DBFB /* Pods-NewsOfChina.debug.xcconfig */,
+				1220A1ADED3B786F42BCEB78 /* Pods-NewsOfChina.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB15BABE20DE62200048F908 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				EB15BADE20DE62220048F908 /* NewsOfChinaTests */,
 				EB15BAE920DE62220048F908 /* NewsOfChinaUITests */,
 				EB15BAC820DE62200048F908 /* Products */,
+				57943319A3C4482A2BAE73BF /* Pods */,
+				319F22E1F5EC1122E51F22BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +130,11 @@
 			isa = PBXGroup;
 			children = (
 				EB15BACA20DE62200048F908 /* AppDelegate.swift */,
-				EB15BACC20DE62200048F908 /* ViewController.swift */,
-				EB15BACE20DE62200048F908 /* Main.storyboard */,
-				EB15BAD120DE62220048F908 /* Assets.xcassets */,
-				EB15BAD320DE62220048F908 /* LaunchScreen.storyboard */,
-				EB15BAD620DE62220048F908 /* Info.plist */,
+				EB15BB0920DE6E970048F908 /* Main */,
+				EB15BAF820DE6D650048F908 /* HomePage */,
+				EB15BAFD20DE6DC60048F908 /* Me */,
+				EB15BB1620DE902E0048F908 /* Other */,
+				EB15BB1720DE904F0048F908 /* Tools */,
 			);
 			path = NewsOfChina;
 			sourceTree = "<group>";
@@ -125,6 +157,50 @@
 			path = NewsOfChinaUITests;
 			sourceTree = "<group>";
 		};
+		EB15BAF820DE6D650048F908 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				EB15BB0C20DE8D050048F908 /* PTLHomePageController.swift */,
+				EB15BB0D20DE8D050048F908 /* PTLHomePageController.xib */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		EB15BAFD20DE6DC60048F908 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				EB15BB1020DE8D2F0048F908 /* PTLMeViewController.swift */,
+				EB15BB1120DE8D2F0048F908 /* PTLMeViewController.xib */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		EB15BB0920DE6E970048F908 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EB15BB1420DE8D6B0048F908 /* PTLNavigationController.swift */,
+				EB15BB0A20DE8C220048F908 /* PTLRootViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EB15BB1620DE902E0048F908 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				EB15BAD120DE62220048F908 /* Assets.xcassets */,
+				EB15BAD320DE62220048F908 /* LaunchScreen.storyboard */,
+				EB15BAD620DE62220048F908 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		EB15BB1720DE904F0048F908 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB15BAEF20DE62220048F908 /* Build configuration list for PBXNativeTarget "NewsOfChina" */;
 			buildPhases = (
+				9B60512AF6B5F923916235AE /* [CP] Check Pods Manifest.lock */,
 				EB15BAC320DE62200048F908 /* Sources */,
 				EB15BAC420DE62200048F908 /* Frameworks */,
 				EB15BAC520DE62200048F908 /* Resources */,
+				884BC446E5052FCCBF96CF30 /* [CP] Embed Pods Frameworks */,
+				B7E7FC13F0BD4215781D59E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +266,7 @@
 		EB15BABF20DE62200048F908 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PTL;
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = soliloquy;
@@ -230,8 +310,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB15BAD520DE62220048F908 /* LaunchScreen.storyboard in Resources */,
+				EB15BB1320DE8D2F0048F908 /* PTLMeViewController.xib in Resources */,
+				EB15BB0F20DE8D050048F908 /* PTLHomePageController.xib in Resources */,
 				EB15BAD220DE62220048F908 /* Assets.xcassets in Resources */,
-				EB15BAD020DE62200048F908 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +332,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		884BC446E5052FCCBF96CF30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B60512AF6B5F923916235AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsOfChina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E7FC13F0BD4215781D59E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB15BAC320DE62200048F908 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB15BACD20DE62200048F908 /* ViewController.swift in Sources */,
+				EB15BB1520DE8D6B0048F908 /* PTLNavigationController.swift in Sources */,
+				EB15BB0E20DE8D050048F908 /* PTLHomePageController.swift in Sources */,
+				EB15BB0B20DE8C220048F908 /* PTLRootViewController.swift in Sources */,
+				EB15BB1220DE8D2F0048F908 /* PTLMeViewController.swift in Sources */,
 				EB15BACB20DE62200048F908 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +437,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EB15BACE20DE62200048F908 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB15BACF20DE62200048F908 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB15BAD320DE62220048F908 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,11 +564,13 @@
 		};
 		EB15BAF020DE62220048F908 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE418DD49D13D29E6A4DBFB /* Pods-NewsOfChina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +584,13 @@
 		};
 		EB15BAF120DE62220048F908 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1220A1ADED3B786F42BCEB78 /* Pods-NewsOfChina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChina/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
