@@ -27,12 +27,7 @@ class PTLNavigationController: UINavigationController {
 
 
 extension PTLNavigationController {
-    /**
-     统一所有控制器导航栏左上角的返回按钮
-     
-     - parameter viewController: 需要压栈的控制器
-     - parameter animated:       是否动画
-     */
+
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         if viewControllers.count > 0 {
             

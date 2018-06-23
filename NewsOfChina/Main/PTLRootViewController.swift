@@ -14,8 +14,8 @@ class PTLRootViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        addChildViewController(PTLHomePageController(nibName: "PTLHomePageController", bundle: nil), title: "首页", imageName: "")
-        addChildViewController(PTLMeViewController(nibName: "PTLMeViewController", bundle: nil), title: "我的", imageName: "")
+        addChildViewController(PTLHomePageController(), title: "首页", imageName: "")
+        addChildViewController(PTLMeViewController(), title: "我的", imageName: "")
         
         tabBar.tintColor = UIColor.red
     }
