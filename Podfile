@@ -7,5 +7,7 @@ target 'NewsOfChina' do
     pod 'SwiftyJSON' #json解析
     pod 'Kingfisher' #图片下载缓存
     pod 'RxSwift' #响应式编程框架
-
+    pod 'YYModel'
+    pod 'MJRefresh'
+    pod 'MBProgressHUD'
 end

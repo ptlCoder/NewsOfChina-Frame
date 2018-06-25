@@ -19,6 +19,11 @@
 		EB15BB1220DE8D2F0048F908 /* PTLMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB1020DE8D2F0048F908 /* PTLMeViewController.swift */; };
 		EB15BB1320DE8D2F0048F908 /* PTLMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB15BB1120DE8D2F0048F908 /* PTLMeViewController.xib */; };
 		EB15BB1520DE8D6B0048F908 /* PTLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB1420DE8D6B0048F908 /* PTLNavigationController.swift */; };
+		EBC85A6320DF458B00834B29 /* PTLNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC85A6220DF458B00834B29 /* PTLNetworkTools.swift */; };
+		EBC85A6520DF45D400834B29 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC85A6420DF45D400834B29 /* Tools.swift */; };
+		EBC85A6720DF587C00834B29 /* PTLHomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC85A6620DF587C00834B29 /* PTLHomePageModel.swift */; };
+		EBC85A6F20DF9A4F00834B29 /* PTLHomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC85A6D20DF9A4F00834B29 /* PTLHomePageCell.swift */; };
+		EBC85A7020DF9A4F00834B29 /* PTLHomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC85A6E20DF9A4F00834B29 /* PTLHomePageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,11 @@
 		EB15BB1020DE8D2F0048F908 /* PTLMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLMeViewController.swift; sourceTree = "<group>"; };
 		EB15BB1120DE8D2F0048F908 /* PTLMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLMeViewController.xib; sourceTree = "<group>"; };
 		EB15BB1420DE8D6B0048F908 /* PTLNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PTLNavigationController.swift; sourceTree = "<group>"; };
+		EBC85A6220DF458B00834B29 /* PTLNetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLNetworkTools.swift; sourceTree = "<group>"; };
+		EBC85A6420DF45D400834B29 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		EBC85A6620DF587C00834B29 /* PTLHomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageModel.swift; sourceTree = "<group>"; };
+		EBC85A6D20DF9A4F00834B29 /* PTLHomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageCell.swift; sourceTree = "<group>"; };
+		EBC85A6E20DF9A4F00834B29 /* PTLHomePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLHomePageCell.xib; sourceTree = "<group>"; };
 		FCE418DD49D13D29E6A4DBFB /* Pods-NewsOfChina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOfChina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,8 +170,9 @@
 		EB15BAF820DE6D650048F908 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
-				EB15BB0C20DE8D050048F908 /* PTLHomePageController.swift */,
-				EB15BB0D20DE8D050048F908 /* PTLHomePageController.xib */,
+				EBC85A6B20DF9A1B00834B29 /* Model */,
+				EBC85A6C20DF9A2300834B29 /* Views */,
+				EBC85A6A20DF9A0E00834B29 /* Controller */,
 			);
 			path = HomePage;
 			sourceTree = "<group>";
@@ -197,8 +208,36 @@
 		EB15BB1720DE904F0048F908 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				EBC85A6220DF458B00834B29 /* PTLNetworkTools.swift */,
+				EBC85A6420DF45D400834B29 /* Tools.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		EBC85A6A20DF9A0E00834B29 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EB15BB0C20DE8D050048F908 /* PTLHomePageController.swift */,
+				EB15BB0D20DE8D050048F908 /* PTLHomePageController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EBC85A6B20DF9A1B00834B29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBC85A6620DF587C00834B29 /* PTLHomePageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBC85A6C20DF9A2300834B29 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBC85A6D20DF9A4F00834B29 /* PTLHomePageCell.swift */,
+				EBC85A6E20DF9A4F00834B29 /* PTLHomePageCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB15BAD520DE62220048F908 /* LaunchScreen.storyboard in Resources */,
+				EBC85A7020DF9A4F00834B29 /* PTLHomePageCell.xib in Resources */,
 				EB15BB1320DE8D2F0048F908 /* PTLMeViewController.xib in Resources */,
 				EB15BB0F20DE8D050048F908 /* PTLHomePageController.xib in Resources */,
 				EB15BAD220DE62220048F908 /* Assets.xcassets in Resources */,
@@ -342,15 +382,21 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -397,9 +443,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC85A6720DF587C00834B29 /* PTLHomePageModel.swift in Sources */,
 				EB15BB1520DE8D6B0048F908 /* PTLNavigationController.swift in Sources */,
 				EB15BB0E20DE8D050048F908 /* PTLHomePageController.swift in Sources */,
+				EBC85A6320DF458B00834B29 /* PTLNetworkTools.swift in Sources */,
 				EB15BB0B20DE8C220048F908 /* PTLRootViewController.swift in Sources */,
+				EBC85A6F20DF9A4F00834B29 /* PTLHomePageCell.swift in Sources */,
+				EBC85A6520DF45D400834B29 /* Tools.swift in Sources */,
 				EB15BB1220DE8D2F0048F908 /* PTLMeViewController.swift in Sources */,
 				EB15BACB20DE62200048F908 /* AppDelegate.swift in Sources */,
 			);
@@ -571,12 +621,10 @@
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = "$(SRCROOT)/NewsOfChina/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -591,12 +639,10 @@
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = "$(SRCROOT)/NewsOfChina/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -610,11 +656,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChinaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -631,11 +673,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChinaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -651,11 +689,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChinaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -671,11 +705,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChinaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
