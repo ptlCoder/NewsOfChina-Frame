@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A40CE0D95E9116D290505DBC /* Pods_NewsOfChina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B784FC240334687517C3383B /* Pods_NewsOfChina.framework */; };
+		D896683120E36E2900D39AAD /* PTLHomePageCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D896683020E36E2900D39AAD /* PTLHomePageCellLayout.swift */; };
+		D896683520E37D8000D39AAD /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = D896683320E37D7F00D39AAD /* NSString+Size.m */; };
 		EB15BACB20DE62200048F908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BACA20DE62200048F908 /* AppDelegate.swift */; };
 		EB15BAD220DE62220048F908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB15BAD120DE62220048F908 /* Assets.xcassets */; };
 		EB15BAD520DE62220048F908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB15BAD320DE62220048F908 /* LaunchScreen.storyboard */; };
@@ -23,7 +25,6 @@
 		EBC85A6520DF45D400834B29 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC85A6420DF45D400834B29 /* Tools.swift */; };
 		EBC85A6720DF587C00834B29 /* PTLHomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC85A6620DF587C00834B29 /* PTLHomePageModel.swift */; };
 		EBC85A6F20DF9A4F00834B29 /* PTLHomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC85A6D20DF9A4F00834B29 /* PTLHomePageCell.swift */; };
-		EBC85A7020DF9A4F00834B29 /* PTLHomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBC85A6E20DF9A4F00834B29 /* PTLHomePageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,10 @@
 /* Begin PBXFileReference section */
 		1220A1ADED3B786F42BCEB78 /* Pods-NewsOfChina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOfChina.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina.release.xcconfig"; sourceTree = "<group>"; };
 		B784FC240334687517C3383B /* Pods_NewsOfChina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsOfChina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D896683020E36E2900D39AAD /* PTLHomePageCellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageCellLayout.swift; sourceTree = "<group>"; };
+		D896683220E37D7E00D39AAD /* NewsOfChina-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsOfChina-Bridging-Header.h"; sourceTree = "<group>"; };
+		D896683320E37D7F00D39AAD /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		D896683420E37D7F00D39AAD /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
 		EB15BAC720DE62200048F908 /* NewsOfChina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsOfChina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB15BACA20DE62200048F908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB15BAD120DE62220048F908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,7 +72,6 @@
 		EBC85A6420DF45D400834B29 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		EBC85A6620DF587C00834B29 /* PTLHomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageModel.swift; sourceTree = "<group>"; };
 		EBC85A6D20DF9A4F00834B29 /* PTLHomePageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageCell.swift; sourceTree = "<group>"; };
-		EBC85A6E20DF9A4F00834B29 /* PTLHomePageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLHomePageCell.xib; sourceTree = "<group>"; };
 		FCE418DD49D13D29E6A4DBFB /* Pods-NewsOfChina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOfChina.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +118,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D896682F20E36B8400D39AAD /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				D896683020E36E2900D39AAD /* PTLHomePageCellLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
 		EB15BABE20DE62200048F908 = {
 			isa = PBXGroup;
 			children = (
@@ -139,12 +151,15 @@
 		EB15BAC920DE62200048F908 /* NewsOfChina */ = {
 			isa = PBXGroup;
 			children = (
+				D896683420E37D7F00D39AAD /* NSString+Size.h */,
+				D896683320E37D7F00D39AAD /* NSString+Size.m */,
 				EB15BACA20DE62200048F908 /* AppDelegate.swift */,
 				EB15BB0920DE6E970048F908 /* Main */,
 				EB15BAF820DE6D650048F908 /* HomePage */,
 				EB15BAFD20DE6DC60048F908 /* Me */,
 				EB15BB1620DE902E0048F908 /* Other */,
 				EB15BB1720DE904F0048F908 /* Tools */,
+				D896683220E37D7E00D39AAD /* NewsOfChina-Bridging-Header.h */,
 			);
 			path = NewsOfChina;
 			sourceTree = "<group>";
@@ -170,6 +185,7 @@
 		EB15BAF820DE6D650048F908 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				D896682F20E36B8400D39AAD /* Layout */,
 				EBC85A6B20DF9A1B00834B29 /* Model */,
 				EBC85A6C20DF9A2300834B29 /* Views */,
 				EBC85A6A20DF9A0E00834B29 /* Controller */,
@@ -235,7 +251,6 @@
 			isa = PBXGroup;
 			children = (
 				EBC85A6D20DF9A4F00834B29 /* PTLHomePageCell.swift */,
-				EBC85A6E20DF9A4F00834B29 /* PTLHomePageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -252,7 +267,6 @@
 				EB15BAC420DE62200048F908 /* Frameworks */,
 				EB15BAC520DE62200048F908 /* Resources */,
 				884BC446E5052FCCBF96CF30 /* [CP] Embed Pods Frameworks */,
-				B7E7FC13F0BD4215781D59E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,10 +322,11 @@
 				CLASSPREFIX = PTL;
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = soliloquy;
+				ORGANIZATIONNAME = ptlCoder;
 				TargetAttributes = {
 					EB15BAC620DE62200048F908 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					EB15BADA20DE62220048F908 = {
 						CreatedOnToolsVersion = 9.4;
@@ -349,7 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB15BAD520DE62220048F908 /* LaunchScreen.storyboard in Resources */,
-				EBC85A7020DF9A4F00834B29 /* PTLHomePageCell.xib in Resources */,
 				EB15BB1320DE8D2F0048F908 /* PTLMeViewController.xib in Resources */,
 				EB15BB0F20DE8D050048F908 /* PTLHomePageController.xib in Resources */,
 				EB15BAD220DE62220048F908 /* Assets.xcassets in Resources */,
@@ -385,7 +399,6 @@
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -395,7 +408,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,21 +433,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B7E7FC13F0BD4215781D59E2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -446,11 +443,13 @@
 				EBC85A6720DF587C00834B29 /* PTLHomePageModel.swift in Sources */,
 				EB15BB1520DE8D6B0048F908 /* PTLNavigationController.swift in Sources */,
 				EB15BB0E20DE8D050048F908 /* PTLHomePageController.swift in Sources */,
+				D896683520E37D8000D39AAD /* NSString+Size.m in Sources */,
 				EBC85A6320DF458B00834B29 /* PTLNetworkTools.swift in Sources */,
 				EB15BB0B20DE8C220048F908 /* PTLRootViewController.swift in Sources */,
 				EBC85A6F20DF9A4F00834B29 /* PTLHomePageCell.swift in Sources */,
 				EBC85A6520DF45D400834B29 /* Tools.swift in Sources */,
 				EB15BB1220DE8D2F0048F908 /* PTLMeViewController.swift in Sources */,
+				D896683120E36E2900D39AAD /* PTLHomePageCellLayout.swift in Sources */,
 				EB15BACB20DE62200048F908 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,14 +616,21 @@
 			baseConfigurationReference = FCE418DD49D13D29E6A4DBFB /* Pods-NewsOfChina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = "$(SRCROOT)/NewsOfChina/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_OBJC_BRIDGING_HEADER = "NewsOfChina/NewsOfChina-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -635,14 +641,20 @@
 			baseConfigurationReference = 1220A1ADED3B786F42BCEB78 /* Pods-NewsOfChina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = "$(SRCROOT)/NewsOfChina/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_OBJC_BRIDGING_HEADER = "NewsOfChina/NewsOfChina-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -656,7 +668,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChinaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -673,7 +689,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChinaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -689,7 +709,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChinaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -705,7 +729,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XYBK7B7U6R;
 				INFOPLIST_FILE = NewsOfChinaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

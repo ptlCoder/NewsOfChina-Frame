@@ -23,6 +23,6 @@ func RGBA(_ r:CGFloat, _ g:CGFloat, _ b:CGFloat, _ a:CGFloat) -> UIColor {
 }
 
 /// 屏幕的宽
-let kScreenWidth = UIScreen.main.bounds.size.width
+let kScreenWidth: CGFloat = UIScreen.main.bounds.size.width 
 /// 屏幕的高
-let kScreenHeight = UIScreen.main.bounds.size.height
+let kScreenHeight: CGFloat = UIScreen.main.bounds.size.height 

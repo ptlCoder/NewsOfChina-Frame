@@ -8,19 +8,21 @@
 
 import UIKit
 
-class PTLHomePageModel:NSObject {
+@objc(PTLHomePageModel)
+// Swift 4.1 属性要加 @objc
+class PTLHomePageModel: NSObject {
     
-    var bigPic:Int? = 0
-    var picMiddle:String? = ""
-    var contentUrl:String? = ""
-    var attAbstract:String? = "" // 描述
-    var urlPad:String? = ""
-    var title:String? = "" // 标题
-    var shareUrl:String? = ""
-    var countPraise:Int? = 0
-    var publishtime:String? = ""
-    var countShare:Int? = 0
-    var countClick:Int? = 0
-    var colID:Int? = 0
+    @objc var bigPic:Int = 0
+    @objc var picMiddle:String? = ""
+    @objc var contentUrl:String? = ""
+    @objc var attAbstract:String? = "" // 描述
+    @objc var urlPad:String? = ""
+    @objc var title:String? = "" // 标题
+    @objc var shareUrl:String? = ""
+    @objc var countPraise:Int = 0
+    @objc var publishtime:String? = ""
+    @objc var countShare:Int = 0
+    @objc var countClick:Int = 0
+    @objc var colID:Int = 0
 
 }

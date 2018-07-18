@@ -37,6 +37,7 @@ class PTLNetworkTools: NSObject {
                     mb.hide(animated: true)
                     successCompletion(response.result.value as! [String: Any])
                 }else {
+                    print("error: \(String(describing: response.result.error))")
                     mb.label.text = "加载失败"
                     mb.mode = .text
                     mb.hide(animated: true, afterDelay: 2)

@@ -63,7 +63,8 @@ extension PTLHomePageController {
 // MARK: setupTabView
 extension PTLHomePageController {
     func setupTabView() {
-        tableView.register(UINib(nibName: "PTLHomePageCell", bundle: nil), forCellReuseIdentifier: "PTLHomePageCell")
+//        tableView.register(UINib(nibName: "PTLHomePageCell", bundle: nil), forCellReuseIdentifier: "PTLHomePageCell")
+        tableView.register(PTLHomePageCell.self, forCellReuseIdentifier: "PTLHomePageCell")
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.estimatedRowHeight = 44
         
@@ -94,12 +95,28 @@ extension PTLHomePageController {
             self.tableView.mj_header.endRefreshing()
             self.tableView.mj_footer.endRefreshing()
             
-            let arr: NSArray = NSArray.yy_modelArray(with: PTLHomePageModel.classForCoder(), json: result["list"] ?? [])! as NSArray
+            // class: xxx.self
+//            let arr: NSArray = NSArray.yy_modelArray(with: PTLHomePageModel.self, json: result["list"] ?? [])! as NSArray
+            
+            var arr: Array<PTLHomePageCellLayout> = []
+            
+            let dictArr = result["list"] as! NSArray
+            for i in 0..<dictArr.count{
+                
+                let dict = dictArr[i] as! NSDictionary
+                
+                let model = PTLHomePageModel.yy_model(with: dict as! [AnyHashable : Any])!
+                
+                let cellLayout = PTLHomePageCellLayout(model)
+                
+                arr.append(cellLayout)
+            }
+            
             if isLoadingNewData! {
                 self.dataSource.removeAllObjects()
-                self.dataSource = arr.mutableCopy() as! NSMutableArray
+                self.dataSource = (arr as NSArray).mutableCopy() as! NSMutableArray
             }else {
-                self.dataSource.addObjects(from: arr as! [Any])
+                self.dataSource.addObjects(from: arr)
             }
 
             if arr.count < self.count {
@@ -145,7 +162,7 @@ extension PTLHomePageController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier:"PTLHomePageCell", for: indexPath) as! PTLHomePageCell
-        cell.model = dataSource[indexPath.row] as? PTLHomePageModel
+        cell.cellLayout = dataSource[indexPath.row] as? PTLHomePageCellLayout
         
         return cell
     }
@@ -153,6 +170,12 @@ extension PTLHomePageController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        let celllayout = dataSource[indexPath.row] as! PTLHomePageCellLayout
+        return celllayout.cellHeight
+
     }
 }
 
