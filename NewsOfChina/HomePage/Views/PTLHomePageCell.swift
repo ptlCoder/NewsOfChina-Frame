@@ -64,7 +64,7 @@ class PTLHomePageCell: UITableViewCell {
             self.attAbstractLabel.frame = (cellLayout?.attAbstractLabelRect)!
             self.bigPicImageView.frame = (cellLayout?.bigPicImageViewRect)!
             self.timeLabel.frame = (cellLayout?.timeLabelRect)!
-            
+            // 设置数据
             titleLabel.text = cellLayout?.model?.title
             attAbstractLabel.text = cellLayout?.model?.attAbstract
             bigPicImageView.kf.setImage(with: URL(string: (cellLayout?.model?.picMiddle)!))

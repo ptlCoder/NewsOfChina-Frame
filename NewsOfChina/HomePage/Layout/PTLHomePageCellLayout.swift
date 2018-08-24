@@ -28,7 +28,6 @@ class PTLHomePageCellLayout: NSObject {
         let titleY: CGFloat = 8
         let titleW = kScreenWidth - titleX*2
         let titleH = (model.title! as NSString).textSize(with: UIFont.systemFont(ofSize: 25), numberOfLines: 0, constrainedWidth: titleW).height
-
         self.titleLabelRect = CGRect(x: titleX, y: titleY, width: titleW, height: titleH)
         
         
@@ -36,7 +35,6 @@ class PTLHomePageCellLayout: NSObject {
         let picY = titleLabelRect.maxY + margin
         let picW = titleW
         let picH: CGFloat = 230
-        
         self.bigPicImageViewRect = CGRect(x: picX, y: picY, width: picW, height: picH)
         
         
@@ -44,14 +42,12 @@ class PTLHomePageCellLayout: NSObject {
         let attAY = bigPicImageViewRect.maxY + margin
         let attAW = titleW
         let attAH = (model.attAbstract! as NSString).textSize(with: UIFont.systemFont(ofSize: 15), numberOfLines: 0, constrainedWidth: attAW).height
-        
         self.attAbstractLabelRect = CGRect(x: attAX, y: attAY, width: attAW, height: attAH)
         
         let timeX = titleX
         let timeY = attAbstractLabelRect.maxY + margin
         let timeW = titleW
         let timeH = (model.publishtime! as NSString).textSize(with: UIFont.systemFont(ofSize: 15), numberOfLines: 0, constrainedWidth: timeW).height
-        
         self.timeLabelRect = CGRect(x: timeX, y: timeY, width: timeW, height: timeH)
         
         cellHeight = timeLabelRect.maxY + margin
