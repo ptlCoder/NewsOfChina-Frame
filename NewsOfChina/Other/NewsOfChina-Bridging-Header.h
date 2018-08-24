@@ -5,4 +5,5 @@
 #import <UIKit/UIKit.h>
 
 #import "NSString+Size.h"
-
+#import "PTLImageTools.h"
+#import "PTLFPSLabel.h"

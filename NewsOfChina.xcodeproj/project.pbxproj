@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		A40CE0D95E9116D290505DBC /* Pods_NewsOfChina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B784FC240334687517C3383B /* Pods_NewsOfChina.framework */; };
+		D8087FD5212FE4A400E0B35E /* PTLImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D8087FD4212FE4A400E0B35E /* PTLImageTools.m */; };
+		D8087FD8212FE8E800E0B35E /* PTLFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8087FD6212FE8E800E0B35E /* PTLFPSLabel.m */; };
 		D896683120E36E2900D39AAD /* PTLHomePageCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D896683020E36E2900D39AAD /* PTLHomePageCellLayout.swift */; };
 		D896683520E37D8000D39AAD /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = D896683320E37D7F00D39AAD /* NSString+Size.m */; };
 		EB15BACB20DE62200048F908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BACA20DE62200048F908 /* AppDelegate.swift */; };
 		EB15BAD220DE62220048F908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB15BAD120DE62220048F908 /* Assets.xcassets */; };
 		EB15BAD520DE62220048F908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB15BAD320DE62220048F908 /* LaunchScreen.storyboard */; };
-		EB15BB0B20DE8C220048F908 /* PTLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB0A20DE8C220048F908 /* PTLRootViewController.swift */; };
+		EB15BB0B20DE8C220048F908 /* PTLTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB0A20DE8C220048F908 /* PTLTabbarController.swift */; };
 		EB15BB0E20DE8D050048F908 /* PTLHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB0C20DE8D050048F908 /* PTLHomePageController.swift */; };
 		EB15BB0F20DE8D050048F908 /* PTLHomePageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB15BB0D20DE8D050048F908 /* PTLHomePageController.xib */; };
 		EB15BB1220DE8D2F0048F908 /* PTLMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB1020DE8D2F0048F908 /* PTLMeViewController.swift */; };
@@ -28,6 +30,10 @@
 /* Begin PBXFileReference section */
 		1220A1ADED3B786F42BCEB78 /* Pods-NewsOfChina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOfChina.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina.release.xcconfig"; sourceTree = "<group>"; };
 		B784FC240334687517C3383B /* Pods_NewsOfChina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsOfChina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8087FD3212FE4A400E0B35E /* PTLImageTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTLImageTools.h; sourceTree = "<group>"; };
+		D8087FD4212FE4A400E0B35E /* PTLImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLImageTools.m; sourceTree = "<group>"; };
+		D8087FD6212FE8E800E0B35E /* PTLFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLFPSLabel.m; sourceTree = "<group>"; };
+		D8087FD7212FE8E800E0B35E /* PTLFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTLFPSLabel.h; sourceTree = "<group>"; };
 		D896683020E36E2900D39AAD /* PTLHomePageCellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageCellLayout.swift; sourceTree = "<group>"; };
 		D896683220E37D7E00D39AAD /* NewsOfChina-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsOfChina-Bridging-Header.h"; sourceTree = "<group>"; };
 		D896683320E37D7F00D39AAD /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
@@ -37,7 +43,7 @@
 		EB15BAD120DE62220048F908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB15BAD420DE62220048F908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB15BAD620DE62220048F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB15BB0A20DE8C220048F908 /* PTLRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLRootViewController.swift; sourceTree = "<group>"; };
+		EB15BB0A20DE8C220048F908 /* PTLTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLTabbarController.swift; sourceTree = "<group>"; };
 		EB15BB0C20DE8D050048F908 /* PTLHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageController.swift; sourceTree = "<group>"; };
 		EB15BB0D20DE8D050048F908 /* PTLHomePageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLHomePageController.xib; sourceTree = "<group>"; };
 		EB15BB1020DE8D2F0048F908 /* PTLMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLMeViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +92,15 @@
 				D896683320E37D7F00D39AAD /* NSString+Size.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		D8087FD2212FE4A400E0B35E /* ImageTools */ = {
+			isa = PBXGroup;
+			children = (
+				D8087FD3212FE4A400E0B35E /* PTLImageTools.h */,
+				D8087FD4212FE4A400E0B35E /* PTLImageTools.m */,
+			);
+			path = ImageTools;
 			sourceTree = "<group>";
 		};
 		D896682F20E36B8400D39AAD /* Layout */ = {
@@ -150,7 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				EB15BB1420DE8D6B0048F908 /* PTLNavigationController.swift */,
-				EB15BB0A20DE8C220048F908 /* PTLRootViewController.swift */,
+				EB15BB0A20DE8C220048F908 /* PTLTabbarController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -158,6 +173,7 @@
 		EB15BB1620DE902E0048F908 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				D8087FD2212FE4A400E0B35E /* ImageTools */,
 				D8087FD1212FE2F800E0B35E /* Category */,
 				EB15BB1720DE904F0048F908 /* Tools */,
 				D896683220E37D7E00D39AAD /* NewsOfChina-Bridging-Header.h */,
@@ -171,6 +187,8 @@
 		EB15BB1720DE904F0048F908 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D8087FD7212FE8E800E0B35E /* PTLFPSLabel.h */,
+				D8087FD6212FE8E800E0B35E /* PTLFPSLabel.m */,
 				EBC85A6220DF458B00834B29 /* PTLNetworkTools.swift */,
 				EBC85A6420DF45D400834B29 /* Tools.swift */,
 			);
@@ -334,11 +352,13 @@
 				EB15BB0E20DE8D050048F908 /* PTLHomePageController.swift in Sources */,
 				D896683520E37D8000D39AAD /* NSString+Size.m in Sources */,
 				EBC85A6320DF458B00834B29 /* PTLNetworkTools.swift in Sources */,
-				EB15BB0B20DE8C220048F908 /* PTLRootViewController.swift in Sources */,
+				EB15BB0B20DE8C220048F908 /* PTLTabbarController.swift in Sources */,
 				EBC85A6F20DF9A4F00834B29 /* PTLHomePageCell.swift in Sources */,
 				EBC85A6520DF45D400834B29 /* Tools.swift in Sources */,
 				EB15BB1220DE8D2F0048F908 /* PTLMeViewController.swift in Sources */,
+				D8087FD8212FE8E800E0B35E /* PTLFPSLabel.m in Sources */,
 				D896683120E36E2900D39AAD /* PTLHomePageCellLayout.swift in Sources */,
+				D8087FD5212FE4A400E0B35E /* PTLImageTools.m in Sources */,
 				EB15BACB20DE62200048F908 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

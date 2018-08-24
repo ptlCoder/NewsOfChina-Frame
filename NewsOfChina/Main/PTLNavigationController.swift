@@ -14,13 +14,13 @@ class PTLNavigationController: UINavigationController {
         super.viewDidLoad()
 
         // 导航栏背景颜色
-//        navigationBar.barTintColor = RGBAColor(245, g: 80, b: 83, a: 1)
+        navigationBar.barTintColor = UIColor.red
         
         // 中间标题颜色
-//        navigationBar.titleTextAttributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 20), NSAttributedStringKey.foregroundColor: UIColor.white]
+        navigationBar.titleTextAttributes = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 20), NSAttributedStringKey.foregroundColor: UIColor.white]
         
         // 两边按钮的颜色
-//        navigationBar.tintColor = UIColor.white
+        navigationBar.tintColor = UIColor.white
 
     }
 }
