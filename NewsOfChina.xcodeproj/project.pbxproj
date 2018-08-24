@@ -13,8 +13,6 @@
 		EB15BACB20DE62200048F908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BACA20DE62200048F908 /* AppDelegate.swift */; };
 		EB15BAD220DE62220048F908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB15BAD120DE62220048F908 /* Assets.xcassets */; };
 		EB15BAD520DE62220048F908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB15BAD320DE62220048F908 /* LaunchScreen.storyboard */; };
-		EB15BAE020DE62220048F908 /* NewsOfChinaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BADF20DE62220048F908 /* NewsOfChinaTests.swift */; };
-		EB15BAEB20DE62220048F908 /* NewsOfChinaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BAEA20DE62220048F908 /* NewsOfChinaUITests.swift */; };
 		EB15BB0B20DE8C220048F908 /* PTLRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB0A20DE8C220048F908 /* PTLRootViewController.swift */; };
 		EB15BB0E20DE8D050048F908 /* PTLHomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BB0C20DE8D050048F908 /* PTLHomePageController.swift */; };
 		EB15BB0F20DE8D050048F908 /* PTLHomePageController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB15BB0D20DE8D050048F908 /* PTLHomePageController.xib */; };
@@ -26,23 +24,6 @@
 		EBC85A6720DF587C00834B29 /* PTLHomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC85A6620DF587C00834B29 /* PTLHomePageModel.swift */; };
 		EBC85A6F20DF9A4F00834B29 /* PTLHomePageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC85A6D20DF9A4F00834B29 /* PTLHomePageCell.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		EB15BADC20DE62220048F908 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB15BABF20DE62200048F908 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB15BAC620DE62200048F908;
-			remoteInfo = NewsOfChina;
-		};
-		EB15BAE720DE62220048F908 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EB15BABF20DE62200048F908 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB15BAC620DE62200048F908;
-			remoteInfo = NewsOfChina;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1220A1ADED3B786F42BCEB78 /* Pods-NewsOfChina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsOfChina.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,12 +37,6 @@
 		EB15BAD120DE62220048F908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB15BAD420DE62220048F908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB15BAD620DE62220048F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB15BADB20DE62220048F908 /* NewsOfChinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsOfChinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB15BADF20DE62220048F908 /* NewsOfChinaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsOfChinaTests.swift; sourceTree = "<group>"; };
-		EB15BAE120DE62220048F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB15BAE620DE62220048F908 /* NewsOfChinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsOfChinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB15BAEA20DE62220048F908 /* NewsOfChinaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsOfChinaUITests.swift; sourceTree = "<group>"; };
-		EB15BAEC20DE62220048F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB15BB0A20DE8C220048F908 /* PTLRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLRootViewController.swift; sourceTree = "<group>"; };
 		EB15BB0C20DE8D050048F908 /* PTLHomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageController.swift; sourceTree = "<group>"; };
 		EB15BB0D20DE8D050048F908 /* PTLHomePageController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PTLHomePageController.xib; sourceTree = "<group>"; };
@@ -81,20 +56,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A40CE0D95E9116D290505DBC /* Pods_NewsOfChina.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB15BAD820DE62220048F908 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB15BAE320DE62220048F908 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +79,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D8087FD1212FE2F800E0B35E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D896683420E37D7F00D39AAD /* NSString+Size.h */,
+				D896683320E37D7F00D39AAD /* NSString+Size.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D896682F20E36B8400D39AAD /* Layout */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,8 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				EB15BAC920DE62200048F908 /* NewsOfChina */,
-				EB15BADE20DE62220048F908 /* NewsOfChinaTests */,
-				EB15BAE920DE62220048F908 /* NewsOfChinaUITests */,
 				EB15BAC820DE62200048F908 /* Products */,
 				57943319A3C4482A2BAE73BF /* Pods */,
 				319F22E1F5EC1122E51F22BA /* Frameworks */,
@@ -142,8 +110,6 @@
 			isa = PBXGroup;
 			children = (
 				EB15BAC720DE62200048F908 /* NewsOfChina.app */,
-				EB15BADB20DE62220048F908 /* NewsOfChinaTests.xctest */,
-				EB15BAE620DE62220048F908 /* NewsOfChinaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,35 +117,13 @@
 		EB15BAC920DE62200048F908 /* NewsOfChina */ = {
 			isa = PBXGroup;
 			children = (
-				D896683420E37D7F00D39AAD /* NSString+Size.h */,
-				D896683320E37D7F00D39AAD /* NSString+Size.m */,
 				EB15BACA20DE62200048F908 /* AppDelegate.swift */,
 				EB15BB0920DE6E970048F908 /* Main */,
 				EB15BAF820DE6D650048F908 /* HomePage */,
 				EB15BAFD20DE6DC60048F908 /* Me */,
 				EB15BB1620DE902E0048F908 /* Other */,
-				EB15BB1720DE904F0048F908 /* Tools */,
-				D896683220E37D7E00D39AAD /* NewsOfChina-Bridging-Header.h */,
 			);
 			path = NewsOfChina;
-			sourceTree = "<group>";
-		};
-		EB15BADE20DE62220048F908 /* NewsOfChinaTests */ = {
-			isa = PBXGroup;
-			children = (
-				EB15BADF20DE62220048F908 /* NewsOfChinaTests.swift */,
-				EB15BAE120DE62220048F908 /* Info.plist */,
-			);
-			path = NewsOfChinaTests;
-			sourceTree = "<group>";
-		};
-		EB15BAE920DE62220048F908 /* NewsOfChinaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EB15BAEA20DE62220048F908 /* NewsOfChinaUITests.swift */,
-				EB15BAEC20DE62220048F908 /* Info.plist */,
-			);
-			path = NewsOfChinaUITests;
 			sourceTree = "<group>";
 		};
 		EB15BAF820DE6D650048F908 /* HomePage */ = {
@@ -214,6 +158,9 @@
 		EB15BB1620DE902E0048F908 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				D8087FD1212FE2F800E0B35E /* Category */,
+				EB15BB1720DE904F0048F908 /* Tools */,
+				D896683220E37D7E00D39AAD /* NewsOfChina-Bridging-Header.h */,
 				EB15BAD120DE62220048F908 /* Assets.xcassets */,
 				EB15BAD320DE62220048F908 /* LaunchScreen.storyboard */,
 				EB15BAD620DE62220048F908 /* Info.plist */,
@@ -277,42 +224,6 @@
 			productReference = EB15BAC720DE62200048F908 /* NewsOfChina.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EB15BADA20DE62220048F908 /* NewsOfChinaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB15BAF220DE62220048F908 /* Build configuration list for PBXNativeTarget "NewsOfChinaTests" */;
-			buildPhases = (
-				EB15BAD720DE62220048F908 /* Sources */,
-				EB15BAD820DE62220048F908 /* Frameworks */,
-				EB15BAD920DE62220048F908 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EB15BADD20DE62220048F908 /* PBXTargetDependency */,
-			);
-			name = NewsOfChinaTests;
-			productName = NewsOfChinaTests;
-			productReference = EB15BADB20DE62220048F908 /* NewsOfChinaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EB15BAE520DE62220048F908 /* NewsOfChinaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EB15BAF520DE62220048F908 /* Build configuration list for PBXNativeTarget "NewsOfChinaUITests" */;
-			buildPhases = (
-				EB15BAE220DE62220048F908 /* Sources */,
-				EB15BAE320DE62220048F908 /* Frameworks */,
-				EB15BAE420DE62220048F908 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EB15BAE820DE62220048F908 /* PBXTargetDependency */,
-			);
-			name = NewsOfChinaUITests;
-			productName = NewsOfChinaUITests;
-			productReference = EB15BAE620DE62220048F908 /* NewsOfChinaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,14 +238,6 @@
 					EB15BAC620DE62200048F908 = {
 						CreatedOnToolsVersion = 9.4;
 						LastSwiftMigration = 0940;
-					};
-					EB15BADA20DE62220048F908 = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = EB15BAC620DE62200048F908;
-					};
-					EB15BAE520DE62220048F908 = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = EB15BAC620DE62200048F908;
 					};
 				};
 			};
@@ -352,8 +255,6 @@
 			projectRoot = "";
 			targets = (
 				EB15BAC620DE62200048F908 /* NewsOfChina */,
-				EB15BADA20DE62220048F908 /* NewsOfChinaTests */,
-				EB15BAE520DE62220048F908 /* NewsOfChinaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -370,20 +271,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB15BAD920DE62220048F908 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB15BAE420DE62220048F908 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -395,6 +282,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-NewsOfChina/Pods-NewsOfChina-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
@@ -404,6 +292,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
@@ -454,36 +343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB15BAD720DE62220048F908 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB15BAE020DE62220048F908 /* NewsOfChinaTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB15BAE220DE62220048F908 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EB15BAEB20DE62220048F908 /* NewsOfChinaUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EB15BADD20DE62220048F908 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EB15BAC620DE62200048F908 /* NewsOfChina */;
-			targetProxy = EB15BADC20DE62220048F908 /* PBXContainerItemProxy */;
-		};
-		EB15BAE820DE62220048F908 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EB15BAC620DE62200048F908 /* NewsOfChina */;
-			targetProxy = EB15BAE720DE62220048F908 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EB15BAD320DE62220048F908 /* LaunchScreen.storyboard */ = {
@@ -628,7 +488,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "NewsOfChina/NewsOfChina-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewsOfChina/Other/NewsOfChina-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -653,92 +513,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChina;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "NewsOfChina/NewsOfChina-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewsOfChina/Other/NewsOfChina-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		EB15BAF320DE62220048F908 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XYBK7B7U6R;
-				INFOPLIST_FILE = NewsOfChinaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsOfChina.app/NewsOfChina";
-			};
-			name = Debug;
-		};
-		EB15BAF420DE62220048F908 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XYBK7B7U6R;
-				INFOPLIST_FILE = NewsOfChinaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsOfChina.app/NewsOfChina";
-			};
-			name = Release;
-		};
-		EB15BAF620DE62220048F908 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XYBK7B7U6R;
-				INFOPLIST_FILE = NewsOfChinaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NewsOfChina;
-			};
-			name = Debug;
-		};
-		EB15BAF720DE62220048F908 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XYBK7B7U6R;
-				INFOPLIST_FILE = NewsOfChinaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ptl.www.NewsOfChinaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NewsOfChina;
 			};
 			name = Release;
 		};
@@ -759,24 +537,6 @@
 			buildConfigurations = (
 				EB15BAF020DE62220048F908 /* Debug */,
 				EB15BAF120DE62220048F908 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB15BAF220DE62220048F908 /* Build configuration list for PBXNativeTarget "NewsOfChinaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB15BAF320DE62220048F908 /* Debug */,
-				EB15BAF420DE62220048F908 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB15BAF520DE62220048F908 /* Build configuration list for PBXNativeTarget "NewsOfChinaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB15BAF620DE62220048F908 /* Debug */,
-				EB15BAF720DE62220048F908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

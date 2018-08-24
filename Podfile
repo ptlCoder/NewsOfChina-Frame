@@ -10,4 +10,5 @@ target 'NewsOfChina' do
     pod 'YYModel'
     pod 'MJRefresh'
     pod 'MBProgressHUD'
+    pod 'FontAwesomeKit', '~> 2.2.1' #文字图标
 end
