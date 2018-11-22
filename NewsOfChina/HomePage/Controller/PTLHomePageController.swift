@@ -80,35 +80,20 @@ extension PTLHomePageController {
 // MARK: 加载数据
 extension PTLHomePageController {
      func requstData(_ isLoadingNewData: Bool? = true) {
-        
 
-        if isLoadingNewData! {
-            pages = 0
-        }else {
-            pages = pages + 1
-        }
-
-        let urlStr = "http://v5.chinapeace.gov.cn/app_if/getArticles?columnId=7&lastFileId=0&count=\(count)&rowNumber=\(pages*count)&version=0&adv=1"
-
-        PTLNetworkTools.requestDate(urlStr, method: .get, parameters: nil, successCompletion: { (result) in
+        PTLHomePageData.requstData(isLoadingNewData, successCompletion: { (result) in
             
             self.tableView.mj_header.endRefreshing()
             self.tableView.mj_footer.endRefreshing()
-            
-            // class: xxx.self
-//            let arr: NSArray = NSArray.yy_modelArray(with: PTLHomePageModel.self, json: result["list"] ?? [])! as NSArray
-            
+
             var arr: Array<PTLHomePageCellLayout> = []
             
             let dictArr = result["list"] as! NSArray
             for i in 0..<dictArr.count{
                 
                 let dict = dictArr[i] as! NSDictionary
-                
                 let model = PTLHomePageModel.yy_model(with: dict as! [AnyHashable : Any])!
-                
                 let cellLayout = PTLHomePageCellLayout(model)
-                
                 arr.append(cellLayout)
             }
             
@@ -118,17 +103,16 @@ extension PTLHomePageController {
             }else {
                 self.dataSource.addObjects(from: arr)
             }
-
+            
             if arr.count < self.count {
                 self.tableView.mj_footer.endRefreshingWithNoMoreData()
             }
             
-//
             self.tableView.reloadData()
             
             print("arr: \(self.dataSource)")
         }) { (error) in
-            
+            print("error: \(error.localizedDescription)")
         }
     }
     

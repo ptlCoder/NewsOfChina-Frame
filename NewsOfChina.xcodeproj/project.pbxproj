@@ -10,6 +10,7 @@
 		A40CE0D95E9116D290505DBC /* Pods_NewsOfChina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B784FC240334687517C3383B /* Pods_NewsOfChina.framework */; };
 		D8087FD5212FE4A400E0B35E /* PTLImageTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D8087FD4212FE4A400E0B35E /* PTLImageTools.m */; };
 		D8087FD8212FE8E800E0B35E /* PTLFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8087FD6212FE8E800E0B35E /* PTLFPSLabel.m */; };
+		D8087FDB212FEE8200E0B35E /* PTLHomePageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8087FDA212FEE8200E0B35E /* PTLHomePageData.swift */; };
 		D896683120E36E2900D39AAD /* PTLHomePageCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D896683020E36E2900D39AAD /* PTLHomePageCellLayout.swift */; };
 		D896683520E37D8000D39AAD /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = D896683320E37D7F00D39AAD /* NSString+Size.m */; };
 		EB15BACB20DE62200048F908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15BACA20DE62200048F908 /* AppDelegate.swift */; };
@@ -34,6 +35,7 @@
 		D8087FD4212FE4A400E0B35E /* PTLImageTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLImageTools.m; sourceTree = "<group>"; };
 		D8087FD6212FE8E800E0B35E /* PTLFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTLFPSLabel.m; sourceTree = "<group>"; };
 		D8087FD7212FE8E800E0B35E /* PTLFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTLFPSLabel.h; sourceTree = "<group>"; };
+		D8087FDA212FEE8200E0B35E /* PTLHomePageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageData.swift; sourceTree = "<group>"; };
 		D896683020E36E2900D39AAD /* PTLHomePageCellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTLHomePageCellLayout.swift; sourceTree = "<group>"; };
 		D896683220E37D7E00D39AAD /* NewsOfChina-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsOfChina-Bridging-Header.h"; sourceTree = "<group>"; };
 		D896683320E37D7F00D39AAD /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
@@ -103,6 +105,14 @@
 			path = ImageTools;
 			sourceTree = "<group>";
 		};
+		D8087FD9212FEE5C00E0B35E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D8087FDA212FEE8200E0B35E /* PTLHomePageData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		D896682F20E36B8400D39AAD /* Layout */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +154,7 @@
 		EB15BAF820DE6D650048F908 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				D8087FD9212FEE5C00E0B35E /* Data */,
 				D896682F20E36B8400D39AAD /* Layout */,
 				EBC85A6B20DF9A1B00834B29 /* Model */,
 				EBC85A6C20DF9A2300834B29 /* Views */,
@@ -351,6 +362,7 @@
 				EB15BB1520DE8D6B0048F908 /* PTLNavigationController.swift in Sources */,
 				EB15BB0E20DE8D050048F908 /* PTLHomePageController.swift in Sources */,
 				D896683520E37D8000D39AAD /* NSString+Size.m in Sources */,
+				D8087FDB212FEE8200E0B35E /* PTLHomePageData.swift in Sources */,
 				EBC85A6320DF458B00834B29 /* PTLNetworkTools.swift in Sources */,
 				EB15BB0B20DE8C220048F908 /* PTLTabbarController.swift in Sources */,
 				EBC85A6F20DF9A4F00834B29 /* PTLHomePageCell.swift in Sources */,

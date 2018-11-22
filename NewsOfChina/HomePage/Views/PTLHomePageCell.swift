@@ -14,6 +14,7 @@ class PTLHomePageCell: UITableViewCell {
     
     lazy var titleLabel: UILabel = {
         let titleLabel = UILabel()
+        titleLabel.numberOfLines = 0
         return titleLabel
     }()
     
@@ -25,11 +26,15 @@ class PTLHomePageCell: UITableViewCell {
     
     lazy var bigPicImageView: UIImageView = {
         let bigPicImageView = UIImageView()
+        bigPicImageView.layer.cornerRadius = 8
+        bigPicImageView.layer.masksToBounds = true
         return bigPicImageView
     }()
     
     lazy var timeLabel: UILabel = {
         let timeLabel = UILabel()
+        timeLabel.numberOfLines = 1
+        timeLabel.textAlignment = .right
         return timeLabel
     }()
     
@@ -41,10 +46,7 @@ class PTLHomePageCell: UITableViewCell {
        contentView.addSubview(attAbstractLabel)
        contentView.addSubview(bigPicImageView)
        contentView.addSubview(timeLabel)
-        
-        titleLabel.numberOfLines = 0
-        timeLabel.numberOfLines = 1
-        timeLabel.textAlignment = .right
+
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -54,26 +56,23 @@ class PTLHomePageCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+
     }
 
     var cellLayout: PTLHomePageCellLayout? {
         didSet {
             // Rect布局
-            self.titleLabel.frame = (cellLayout?.titleLabelRect)!
-            self.attAbstractLabel.frame = (cellLayout?.attAbstractLabelRect)!
-            self.bigPicImageView.frame = (cellLayout?.bigPicImageViewRect)!
-            self.timeLabel.frame = (cellLayout?.timeLabelRect)!
+            titleLabel.frame = (cellLayout?.titleLabelRect)!
+            attAbstractLabel.frame = (cellLayout?.attAbstractLabelRect)!
+            bigPicImageView.frame = (cellLayout?.bigPicImageViewRect)!
+            timeLabel.frame = (cellLayout?.timeLabelRect)!
             // 设置数据
             titleLabel.text = cellLayout?.model?.title
             attAbstractLabel.text = cellLayout?.model?.attAbstract
             bigPicImageView.kf.setImage(with: URL(string: (cellLayout?.model?.picMiddle)!))
             timeLabel.text = cellLayout?.model?.publishtime
+            
         }
     }
-    
-    
-    
-    
-    
 }

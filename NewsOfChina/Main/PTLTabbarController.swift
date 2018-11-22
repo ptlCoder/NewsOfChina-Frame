@@ -20,7 +20,7 @@ class PTLTabbarController: UITabBarController {
         tabBar.tintColor = UIColor.red
         
         
-        let fps = YYFPSLabel(frame: CGRect(x: 10, y: kScreenHeight-30, width: 40, height: 20))
+        let fps = PTLFPSLabel(frame: CGRect(x: 10, y: kScreenHeight-30, width: 40, height: 20))
         fps.sizeToFit()
         
         self.view.addSubview(fps)
